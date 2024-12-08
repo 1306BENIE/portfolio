@@ -103,6 +103,54 @@ color: #FFF;
   margin-left: 45px;
 }
 
+#work {
+  text-align: center;
+  color: #847c7c;
+}
+
+.work-realisation-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.work-image {
+  width: 30%;
+}
+
+.work-realisation-1 img {
+  height: 45vh;
+}
+
+.work-realisation-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 15px;
+}
+
+.work-realisation-2 img {
+  height: 45vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
