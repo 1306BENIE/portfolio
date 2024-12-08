@@ -11,10 +11,9 @@
 <!-- le corps du site -->
 <body>
     <!-- la partie nav de mon site -->
-    <header class="logo">
+    <header>
         <div class="navbar">
-            <a href="">Portfolio</a>
-            
+            <a href="#home" class="logo-ecrit">My<span>WebSite</span></a>
             <ul class="nav-links">
                 <li>
                     <a href="#home"><i class="material-icons">home</i>Accueil</a>
@@ -34,35 +33,45 @@
             </ul>
         </div>
     </header>
+
     <!-- les differentes sections du  sites-->
     
     <main>
-        <h1>BENIE SYLVESTRE - Portfolio</h1>
-        <p>Développeur Web | Créateur de Solutions Innovantes</p>
-
-        <!-- la section 1-->
-        <section id="home">
-            <h2>Bienvenue</h2>
-            <p>Bienvenue sur mon portfolio en ligne ! Ici, vous découvrirez mes projets, compétences et expériences.</p>
+        <section>
+            <div class="top-section">
+            <div class="samary" id="home">
+                <h1>BENIE SYLVESTRE - Portfolio</h1>
+                <p>Développeur Web | Créateur de Solutions Innovantes</p>
+            </div>
+            </div>
         </section>
 
         <!-- la section à propos-->
         <section id="about">
             <h2>À Propos</h2>
+            <div class="about-section">
 
-            <!-- je décris en quelques ligne ma passion pour l'informatique-->
-            <p>
-                Informaticien polyvalent dans le développement d’application 
-                web, la résolution de problèmes techniques et la proposition des solutions modernes,
-                intuitives pour répondre aux besoins des utilisateurs. Passionné par l’innovation technique et 
-                capable de fournir des solutions éfficaces en mettant en œuvre 
-                des compétences solides en programmation, en conception de 
-                système et en collaboration interfonctionnelle.
-            </p>
-            <video controls width="600">
-                <source src="video/L'Informatique.mp4" type="video/mp4">
-                Votre navigateur ne supporte pas la lecture vidéo.
-            </video>
+                <!-- je décris en quelques ligne ma passion pour l'informatique-->
+                <div class="for-me" id="about-description">
+                    <p>
+                        <span style="font-size: 35px; color: #F3B900">I</span>nformaticien polyvalent dans le développement d’application 
+                        web, la résolution de problèmes techniques et la proposition des solutions modernes,
+                        intuitives pour répondre aux besoins des utilisateurs. Passionné par l’innovation technique et 
+                        capable de fournir des solutions éfficaces en mettant en œuvre 
+                        des compétences solides en programmation, en conception de 
+                        système et en collaboration interfonctionnelle.
+                    </p>
+                </div>
+
+                <!-- insertion d'une video qui parle de l'informatique  -->
+                <div class="for-me" id="about-video">
+                    <video controls width="600">
+                        <source src="video/L'Informatique.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la lecture vidéo.
+                    </video>
+                </div>
+          
+            </div>
         </section>
 
         <!--Dans la section travail je montre quelques projets réalisés durant mon parcours -->

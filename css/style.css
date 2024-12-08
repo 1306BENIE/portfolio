@@ -1,13 +1,48 @@
 body{
   font-family: sans-serif, "Montserrat";
   margin: 0;
-  padding: 10px 200px;
+  padding: 0px;
   line-height: 1.8;
 }
 header {
-background-color: black;
-padding-right: 48px;
+background-color: #DFDFDF;
+padding: 0px 25px;
 }
+
+.logo-ecrit {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1.2;
+  padding-bottom: 45px;
+  padding-top:10px;
+  text-decoration: none;
+  color: #FFF;
+}
+.logo-ecrit span {
+  color: #F3B900;
+}
+
+.top-section {
+  position: relative;
+  margin-top: -25px;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../img/section-top-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.samary {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  height: 48px;
+  color: #FFF;
+  font-size:20px;
+  font-weight: bold;
+}
+
 
 .navbar {
 display: flex;
@@ -16,11 +51,15 @@ justify-content: space-between;
 }
 
 .nav-links {
-display: flex;
-justify-content: space-between;
-align-items: center;
-list-style-type: none;
-gap: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin-top: -6px;
+  gap: 2rem;
+  top: 0;
+  font-size: 20px;
+  font-weight: 600px;
 }
 
 .nav-links li a {
@@ -30,6 +69,43 @@ align-items: center;
 text-decoration: none;
 color: #FFF;
 }
+
+#about {
+  margin-top: 55px;
+}
+
+#about h2 {
+  text-align: center;
+  color: #847c7c;
+}
+
+.about-section {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.for-me {
+  height: 340px;
+  width: 48%;
+  overflow: hidden;
+}
+
+#about-description {
+  width: 35%;
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+#about-video {
+  margin-left: 45px;
+}
+
+
+
+
 
 /* 
 .navbar {
