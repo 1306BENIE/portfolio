@@ -156,7 +156,7 @@ color: #FFF;
 }
 
 .styled-table thead tr {
-  background-color: #009879;
+  background-color: #F1BB03;
   color: #ffffff; 
   text-align: left; 
   font-weight: bold; 
@@ -181,17 +181,17 @@ color: #FFF;
 .form-container {
   background: #fff;
   padding: 30px;
+  margin-left: 300px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 400px;
+  max-width: 700px;
   text-align: center;
 }
 
 /* Titre */
 .form-container h1 {
   margin-bottom: 20px;
-  color: #6a11cb;
+  color: #847c7c;
   font-size: 24px;
   font-weight: bold;
 }
@@ -224,13 +224,13 @@ input, textarea {
 }
 
 input:focus, textarea:focus {
-  border-color: #6a11cb;
+  border-color: #847c7c;
   outline: none;
 }
 
 /* Bouton */
 button {
-  width: 100%;
+  width: 40%;
   padding: 10px;
   border: none;
   border-radius: 5px;
